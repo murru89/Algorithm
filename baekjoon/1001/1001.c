@@ -2,11 +2,11 @@
 
 int main()
 {
-    printf("고양이가 좋아");
-    
-    scanf("%d",&a);
-    if(a==1)
-    {
+    int a=1;
+    float b=3.99;
+    char c='V';
 
-    }
+    printf("%d, %d, %d",a,b,c);
+    printf("%f, %f, %f",a,b,c);
+    printf("%c, %c, %c",a,b,c);
 }
